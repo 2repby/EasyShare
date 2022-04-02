@@ -19,3 +19,9 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project setup
+composer create-project --prefer-dist laravel/lumen EasyShare
+composer require flipbox/lumen-generator
+php artisan key:generate
+php artisan make:model Item -fmc
